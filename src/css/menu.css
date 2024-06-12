@@ -8,10 +8,13 @@
     width: 100%;
     transition: background-color 0.3s ease;
     height: 50px;
+    z-index: 100;
+    transform: none;
 }
 
-.menu_active {
-    background-color: rgba(255, 0, 0, 0.785);
+.Menu_active {
+    transform: none;
+    background-color: rgba(0, 0, 0, 0.572)    
 }
 
 .menu ul {
@@ -48,4 +51,8 @@ nav {
 #menu_divtxt {
     margin-top: 5px;
     margin-left: 15px;
+}
+
+#txtprin {
+    font-family: var(--font-principal);
 }

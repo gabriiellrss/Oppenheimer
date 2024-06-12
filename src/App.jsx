@@ -4,6 +4,7 @@ import Home from './pages/home.jsx'
 import './index.css'
 import './css/menu.css'
 import './css/main.css'
+import './App.css'
 
 
 function App() {

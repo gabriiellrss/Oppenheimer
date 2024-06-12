@@ -12,5 +12,7 @@
 
 h1, a, p, ul {
   font-family: var(--font-principal);
-  color: white;
+  color: aliceblue;
 }
+
+
