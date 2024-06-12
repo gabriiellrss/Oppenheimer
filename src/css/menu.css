@@ -1,6 +1,6 @@
 .menu {
     display: flex;
-    background-color: #333;
+    background-color: #33333300;
     color: #fff;
     position: fixed;
     top: 0;
@@ -11,7 +11,7 @@
 }
 
 .menu_active {
-    background-color: #33333391;
+    background-color: rgba(255, 0, 0, 0.785);
 }
 
 .menu ul {

@@ -1,7 +1,7 @@
 
 function Menu () {
     return (
-        <header class="menu">
+        <header className="menu">
         <div id="menu_divtxt">
             <h1 id="txtprin">OPENHAIMER</h1>
         </div>
@@ -16,7 +16,8 @@ function Menu () {
         </div>
         </nav>
 
-        
+
+        <script src="./src/js/menu.js"></script>
     </header>
     )
 }

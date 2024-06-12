@@ -6,10 +6,11 @@
   font-style: normal;
   --cor-principal: blue;
   --cor-secundaria: red;
-  --fundo-alternativo: ;
+  --fundo-alternativo: #ffff;
   --font-principal: "source-sans-pro", sans-serif;
 }
 
 h1, a, p, ul {
   font-family: var(--font-principal);
+  color: white;
 }

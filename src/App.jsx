@@ -1,21 +1,22 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route   } from "react-router-dom";
-import Menu from './menu'
+import Home from './pages/home.jsx'
 import './index.css'
 import './css/menu.css'
+import './css/main.css'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <BrowserRouter>
       <Routes>
-        router
+        <Route path='/' element={<Home/>}/>
       </Routes>
     </BrowserRouter>
     
   )
 }
+
+
 
 export default App
