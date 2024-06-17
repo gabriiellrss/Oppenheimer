@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
     height: 50px;
     z-index: 100;
     transform: none;
@@ -26,10 +26,19 @@
 
 .menu nav {
     align-self: center;
-    
 }
 
 .menu li {
+    padding: 5px;
+    transition: 0.3s;
+    margin-right: 20px;
+}
+
+.menu li:hover {
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #e26d0077;
     margin-right: 20px;
 }
 
@@ -44,15 +53,23 @@ nav {
 }
 
 #nav_div {
-    width: 200px;
     float: right;
 }
 
-#menu_divtxt {
-    margin-top: 5px;
-    margin-left: 15px;
-}
 
 #txtprin {
     font-family: var(--font-principal);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#txtprin:hover {
+    transition: 0.5s;
+    color: #ffeedf;
+    font-family: var(--font-principal);
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #fc7b03b2, 0 0 20px #fc7b03b2, 0 0 30px #fc7b03b2, 0 0 40px #fc7b03b2, 0 0 70px #fc7b03b2, 0 0 80px #fc7b03b2, 0 0 100px #fc7b03b2, 0 0 150px #fc7b03b2;
 }

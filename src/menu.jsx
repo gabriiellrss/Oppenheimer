@@ -16,7 +16,6 @@ function Menu() {
 
     window.addEventListener('scroll', handleScroll);
 
-    // Lembre-se de remover o evento quando o componente for desmontado
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -32,8 +31,10 @@ function Menu() {
             <div id="nav_div">
             <ul>
                 <li><a href="#home">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#Historia">Historia</a></li>
+                <li><a href="#Referencias">Referencias</a></li>
+                <li><a href="#Downloads">Downloads</a></li>
+                <li><a href="#Configurações">Configurações</a></li>
             </ul>
         </div>
         </nav>    

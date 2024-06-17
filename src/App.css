@@ -4,15 +4,30 @@
   font-family: "source-sans-pro", sans-serif;
   font-weight: 400;
   font-style: normal;
-  --cor-principal: blue;
+  --cor-principal: #e26c00;
   --cor-secundaria: red;
   --fundo-alternativo: #ffff;
   --font-principal: "source-sans-pro", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #333333 black;
 }
 
 h1, a, p, ul {
   font-family: var(--font-principal);
   color: aliceblue;
+  padding: 15px;
 }
+
+hr {
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  background-color: white;
+  color: white;
+  width: 200px;
+  height: 5px;
+  text-align: center;
+}
+
 
 
