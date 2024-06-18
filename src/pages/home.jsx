@@ -1,6 +1,11 @@
-    import Menu from '/src/menu.jsx'
+    import { useState } from 'react'
+import Menu from '/src/menu.jsx'
+
 
 function Home () {
+
+
+
     return (
 
         <body>
@@ -20,7 +25,7 @@ function Home () {
                     <h1 className='section_tiitle_princ'> Quem foi Oppenheimer?</h1>
                     <hr/>
                   </div>
-                  
+
                   <div className='div_section' id='div_main2'>
                        <p>J. Robert Oppenheimer foi um físico teórico americano, muitas vezes chamado de 
                         “pai da bomba atômica” por seu papel como diretor científico do Projeto Manhattan durante a Segunda Guerra Mundial, 
@@ -52,24 +57,26 @@ function Home () {
             </main>
 
             <main className="main_prin" id='main_light'>
-              <main className="main_prin">
-                <section className='sectionpage'>
-                  <h1 className='section_tiitle_princ'>Biografia</h1>
-                  <hr/>
+            <div class="container">
+                <div class="bio-section">
+                    <img src="/src/assets/imagens/robert-oppenheimer-l.webp" alt="Foto de Robert Oppenheimer" class="bio-img"/>
+                    <div class="bio-content">
+                        <h1 className='title_light'>Biografia de Robert Oppenheimer</h1>
+                        <p><strong>Ocupação:</strong> Físico estadunidense</p>
+                        <p><strong>Data de Nascimento:</strong> 22/04/1904</p>
+                        <p><strong>Data da Morte:</strong> 18/02/1967 (aos 62 anos)</p>
+                        <p>Julius Robert Oppenheimer foi um físico estadunidense que ficou conhecido como o pai da bomba atômica. Diretor do Projeto Manhattan, coordenou uma grande equipe de cientistas que trabalhou para a criação da terrível arma militar, usada durante a Segunda Guerra Mundial pelos EUA.</p>
+                        <p>Após ver o enorme estrago que sua invenção produziu, Oppenheimer se arrependeu de ter contribuído para a morte de milhares de pessoas.</p>
+                        
+                        <button className='button_light'>Saiba mais</button>
+                        </div>
+                      </div>
+                  </div>
+            </main>
 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti iusto fugiat velit excepturi tempore voluptas nesciunt, explicabo odio dolores molestias dolor dolorum illo molestiae similique impedit qui, possimus magnam! Tenetur!</p>
-                </section>
-
-                <section className='sectionpage'>
-                  <h1 className='section_tiitle_princ'>História</h1>
-                  <hr/>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure exercitationem assumenda doloremque magni, voluptates, ullam expedita nihil dolores tenetur illum sed laborum quaerat beatae. Nobis voluptatibus dolor adipisci distinctio aperiam? </p>
-                </section>
-                
-
-              </main>
+            <main className='main_prin' id='main_second'>
               
-              
+
             </main>
     </body>
     )

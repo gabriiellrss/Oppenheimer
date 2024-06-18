@@ -1,0 +1,45 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.bio-img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 15px;
+    width: 200px;
+    transition: 0.2s;
+
+}
+
+.bio-img:hover {
+    transition: 0.2s;
+    float: left;
+    margin-right: 20px;
+    border-radius: 15px;
+    width: 200px;
+    transform: scale(1.05);
+}
+
+.bio-content {
+    overflow: hidden;
+}
+.bio-section {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}

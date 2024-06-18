@@ -14,7 +14,9 @@
 
 .Menu_active {
     transform: none;
-    background-color: rgba(0, 0, 0, 0.572)    
+    background-color: rgba(0, 0, 0, 0.572);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba( 227, 255, 255, 0.37);
 }
 
 .menu ul {
@@ -66,10 +68,10 @@ nav {
 
 #txtprin:hover {
     transition: 0.5s;
-    color: #ffeedf;
+    color: #ffffff;
     font-family: var(--font-principal);
     padding: 10px;
     cursor: pointer;
     text-transform: uppercase;
-    text-shadow: 0 0 10px #fc7b03b2, 0 0 20px #fc7b03b2, 0 0 30px #fc7b03b2, 0 0 40px #fc7b03b2, 0 0 70px #fc7b03b2, 0 0 80px #fc7b03b2, 0 0 100px #fc7b03b2, 0 0 150px #fc7b03b2;
+    text-shadow: 0 0 10px #f7be88e8, 0 0 20px #f7be88e8, 0 0 30px #f7be88e8, 0 0 40px #fc7b03b2, 0 0 70px #fc7b03b2, 0 0 80px #fc7b03b2, 0 0 100px #fc7b03b2, 0 0 150px #fc7b03b2;
 }

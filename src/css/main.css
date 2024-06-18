@@ -3,6 +3,19 @@
     margin-top: 50px;
 }
 
+#main_second {
+    background-color: #F5F5F7;
+
+    section h1, p, a, h2 {
+        color: black;
+    }
+    
+    section hr {
+        background-color: black;
+    }
+
+}
+
 #main_light {
     margin: auto;
     width: 100%;

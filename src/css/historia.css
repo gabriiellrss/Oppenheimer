@@ -1,0 +1,51 @@
+.container2 {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.history-section {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.history-content {
+    overflow: hidden;
+}
+.history-img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.p_light {
+    color: #333;
+    font-size: 21px;
+    font-weight: 500;
+}
+.titleh2_light {
+    text-transform: uppercase;
+    color: #444;
+    font-size: 36px;
+    font-weight: 600;
+}
+.title_light {
+    color: #222;
+}

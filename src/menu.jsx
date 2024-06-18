@@ -5,7 +5,7 @@ function Menu() {
     const menu = document.getElementById('menu');
 
     const handleScroll = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 100) { 
         menu.classList.add("Menu_active");
         // menu.style.backgroundColor = '#000'; // Altere a cor conforme desejado
       } else {
@@ -24,17 +24,17 @@ function Menu() {
   return (
     <header id="menu" className="menu">
         <div id="menu_divtxt">
-            <h1 id="txtprin">OPENHAIMER</h1>
+            <h1 id="txtprin">OPPENHEIMER  </h1>
         </div>
 
         <nav>
             <div id="nav_div">
             <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#Historia">Historia</a></li>
-                <li><a href="#Referencias">Referencias</a></li>
-                <li><a href="#Downloads">Downloads</a></li>
-                <li><a href="#Configurações">Configurações</a></li>
+                <li><a href="/">Início</a></li>
+                <li><a href="/historia">Historia</a></li>
+                <li><a href="/biografia">Biografia</a></li>
+                <li><a href="#Downloads">Referencias</a></li>
+                <li><a href="#Configurações">Downloads</a></li>
             </ul>
         </div>
         </nav>    
