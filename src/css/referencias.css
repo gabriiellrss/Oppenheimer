@@ -14,3 +14,7 @@ img {
     height: auto;
     border-radius: 8px;
 }
+
+.container-ref li {
+    color: white;
+}

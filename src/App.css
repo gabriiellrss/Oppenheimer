@@ -18,6 +18,10 @@ h1, a, p, h2 {
   padding: 15px;
 }
 
+a {
+  cursor: pointer;
+}
+
 hr {
   display: block;
   margin: auto;
@@ -46,7 +50,7 @@ footer p {
 
 .button_light {
   background-color: #e26d00;
-
+  cursor: pointer;
 }
 
 button {
@@ -67,17 +71,20 @@ button {
 button a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 .button_light a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 
 button:hover {
   transition: 0.3s;
   background-color: #e26d00b9;
+  cursor: pointer;
 }
 
 .title_light {
@@ -92,4 +99,9 @@ button:hover {
 
 .p_light {
   color: black;
+}
+
+.button_light a {
+  cursor: pointer;
+  color: white;
 }

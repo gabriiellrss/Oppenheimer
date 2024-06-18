@@ -71,6 +71,12 @@ nav {
     padding: 10px;
     cursor: pointer;
     transition: 0.7s;
+    margin: 0;
+}
+
+#txtprin a {
+    margin: 0;
+    padding: 0;
 }
 
 #txtprin:hover {
@@ -82,3 +88,4 @@ nav {
     text-transform: uppercase;
     text-shadow: 0 0 10px #f7be88e8, 0 0 20px #f7be88e8, 0 0 30px #f7be88e8, 0 0 40px #fc7b03b2, 0 0 70px #fc7b03b2, 0 0 80px #fc7b03b2, 0 0 100px #fc7b03b2, 0 0 150px #fc7b03b2;
 }
+

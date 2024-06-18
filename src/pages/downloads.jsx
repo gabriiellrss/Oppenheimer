@@ -13,20 +13,15 @@ function Down () {
         
         <ul>
             <li>
-                <strong>Nome do Arquivo 1</strong> - 
-                <a class="download-link" href="caminho-para-o-arquivo-1.zip" download>Baixar</a>
-            </li>
-            <li>
-                <strong>Nome do Arquivo 2</strong> - 
-                <a class="download-link" href="caminho-para-o-arquivo-2.rar" download>Baixar</a>
-            </li>
-            <li>
-                <strong>Nome do Arquivo 3</strong> - 
-                <a class="download-link" href="caminho-para-o-arquivo-3.pdf" download>Baixar</a>
+            <img className='imgfilme' src="src\assets\imagens\oppenheimer_livro__t4m2z703s.webp" alt="" />
+
+                <div className='subcontainer-down'>
+                    <strong>Oppenheimer - Livro</strong> - 
+                    <a class="download-link" href="/src/archive/Oppenheimer - Martin J. Sherwin.pdf" download>Baixar</a>
+                </div>
             </li>
         </ul>
         
-        <p>Descrição ou instruções adicionais sobre os arquivos para download.</p>
     </div>
 
     <Rod/>

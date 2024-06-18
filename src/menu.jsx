@@ -24,13 +24,13 @@ function Menu() {
   return (
     <header id="menu" className="menu">
         <div id="menu_divtxt">
-            <h1 id="txtprin">OPPENHEIMER  </h1>
+            <h1 id="txtprin"><a href="/">OPPENHEIMER</a></h1>
         </div>
 
         <nav>
             <div id="nav_div">
             <ul>
-                <li><a href="/">Início</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/historia">Historia</a></li>
                 <li><a href="/biografia">Biografia</a></li>
                 <li><a href="/referencias">Referencias</a></li>
