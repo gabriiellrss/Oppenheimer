@@ -1,5 +1,6 @@
 .container2 {
     padding-top: 50px;
+    padding-bottom: 50px;
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -29,6 +30,16 @@
     overflow: hidden;
 }
 .history-img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.history-img:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
     display: block;
     margin: 20px auto;
     width: 80%;

@@ -1,4 +1,6 @@
 import Menu from '../menu'
+import Rod from '/src/rodape.jsx'
+
 
 function His () {
     return (
@@ -46,10 +48,13 @@ function His () {
                 <h2 class="titleh2_light">Os Últimos Anos</h2>
                 <p class="p_light">Privado de poder político, o físico passou os últimos anos da sua vida elaborando ideias sobre a relação entre a ciência e o seu papel na sociedade e percorrendo a Europa e o Japão dando conferências. Diz-se que, a partir da auditoria, Oppenheimer começou a comportar-se como um animal ferido, retirando-se paulatinamente para uma vida cada vez mais simples. Dez anos mais tarde, em 1963, o presidente John F. Kennedy concedeu-lhe o prémio Enrico Fermi, num gesto de reconhecimento pelo seu grande contributo para a física, mas também para limpar as falsas acusações que tinham sido dirigidas no passado.</p>
                 <img src="/src/assets/imagens/historia/5.jpg" alt="Imagem dos últimos anos de Robert Oppenheimer" class="history-img"/>
-                <p class="p_light">Faleceu três anos mais tarde, vítima de cancro na garganta, nas Ilhas Virgens, onde passou os últimos anos de vida com a sua esposa. Muitos físicos sugeriram que, se tivesse vivido tempo suficiente para ver as suas previsões confirmadas por experiências, Oppenheimer teria ganho um Nobel da Física pelo seu trabalho relacionado com o colapso gravitacional e as estrelas de neutrões.</p>
+                <p class="p_light"><b>Faleceu três anos mais tarde,</b> vítima de cancro na garganta, nas Ilhas Virgens, onde passou os últimos anos de vida com a sua esposa. Muitos físicos sugeriram que, se tivesse vivido tempo suficiente para ver as suas previsões confirmadas por experiências, Oppenheimer teria ganho um Nobel da Física pelo seu trabalho relacionado com o colapso gravitacional e as estrelas de neutrões.</p>
             </div>
         </div>
     </div>
+
+    <Rod/>
+
 
     </body>
 

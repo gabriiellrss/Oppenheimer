@@ -26,12 +26,19 @@
     display: flex;
 }
 
+.menu ul a {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
 .menu nav {
     align-self: center;
 }
 
 .menu li {
-    padding: 5px;
+    padding: 7px;
     transition: 0.3s;
     margin-right: 20px;
 }
@@ -39,13 +46,13 @@
 .menu li:hover {
     transition: 0.3s;
     border-radius: 10px;
-    padding: 5px;
+    padding: 7px;
     background-color: #e26d0077;
     margin-right: 20px;
 }
 
 .menu a {
-    text-decoration: none;
+    text-decoration: none;  
     color: #fff;
 }
 

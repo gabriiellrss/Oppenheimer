@@ -1,0 +1,47 @@
+.container-down {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    }
+
+.container-down h1 {
+    list-style-type: none;
+    padding: 0;     
+    color: rgb(0, 0, 0);
+}
+
+.container-down ul {
+    list-style-type: none;
+    padding: 0;     
+    color: rgb(0, 0, 0);
+}
+
+.container-down li {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.container-down strong {
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+    
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.download-link {    
+    color: #007bff;
+    text-decoration: none;
+}
+.download-link:hover {
+    text-decoration: underline;
+}

@@ -33,8 +33,8 @@ function Menu() {
                 <li><a href="/">Início</a></li>
                 <li><a href="/historia">Historia</a></li>
                 <li><a href="/biografia">Biografia</a></li>
-                <li><a href="#Downloads">Referencias</a></li>
-                <li><a href="#Configurações">Downloads</a></li>
+                <li><a href="/referencias">Referencias</a></li>
+                <li><a href="/downloads">Downloads</a></li>
             </ul>
         </div>
         </nav>    

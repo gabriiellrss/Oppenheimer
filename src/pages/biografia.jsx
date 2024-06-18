@@ -1,4 +1,6 @@
 import Menu from '../menu'
+import Rod from '/src/rodape.jsx'
+
 
 function Bio () {
     return (
@@ -28,6 +30,9 @@ function Bio () {
 
           
         </main>
+
+        <Rod/>
+
 
 
         </body>
